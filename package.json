@@ -16,7 +16,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "lint": "eslint './src/**/*'",
-    "check:all": "yarn lint && yarn build"
+    "check:all": "yarn lint && yarn build",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "adminjs": "^7.0.0"
